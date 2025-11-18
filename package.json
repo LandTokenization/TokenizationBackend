@@ -1,0 +1,30 @@
+{
+  "name": "tokenizationbackend",
+  "version": "1.0.0",
+  "description": "This is the backend for tokenization backend portal",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LandTokenization/TokenizationBackend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LandTokenization/TokenizationBackend/issues"
+  },
+  "homepage": "https://github.com/LandTokenization/TokenizationBackend#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "joi": "^18.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.20.0",
+    "morgan": "^1.10.1"
+  }
+}
